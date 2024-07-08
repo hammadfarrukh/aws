@@ -9,6 +9,7 @@
 `include "./DataMemory/design.v"
 `include "./Adder/design.v"
 `include "./MUX/design.v"
+//aws pull
 module Single_Cycle(clk, reset);
 input clk, reset;
 // Interim wire declaration
