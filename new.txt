@@ -1,0 +1,21 @@
+sudo chmod 777 /etc/apache2/sites-enabled/000-default.conf
+sudo chmod 777 ports.conf
+/etc/apache2/sites-enabled/000-default.conf
+nano /etc/apache2/sites-enabled/000-default.conf
+sudo systemctl apache2
+sudo systemctl  restart apache2
+sudo ufw disable
+sudo apt install net-tools
+sudo netstat -tunlp
+sudo ufw allow proto tcp from any to any port 8080
+
+git add .
+git commit -m"messege"
+git push origin main
+
+git clone
+ec2 to bucket:
+aws s3 cp filename s3://bucketname (name if change)
+
+bucket to ec2
+aws s3 cp s3://bucketname/filename newFileName
